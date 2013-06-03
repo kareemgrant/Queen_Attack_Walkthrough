@@ -166,9 +166,9 @@ As luck would have it, the next test passes without much effort.
 ```
 Here the new Queens instances are being instantiated with parameters. These parameters will simply override the existing results. Run the tests, and they should pass.
 
-The following test clear states that we sould raise an error if the positions of both the black and white queens are the same:
+The following test clearly states that we sould raise an error if the positions of both the black and white queens are the same:
 
-```
+```ruby
   def test_cannot_occupy_same_space skip
     assert_raises ArgumentError do
       Queens.new(white: [2, 4], black: [2, 4])
