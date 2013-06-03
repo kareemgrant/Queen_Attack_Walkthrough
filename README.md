@@ -311,4 +311,4 @@ With that move, our to_s method know looks much more manageable:
   end
 ```
 
-That's it for now, I'll detail my approach of the of the remaining tests, in the near future. Who know writing about code was so fun!
+That's it for now, I'll detail my approach to making the remaining tests green in the near future. Who knew writing about code was so much fun!
