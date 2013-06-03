@@ -242,7 +242,7 @@ board = ""
 end
 ```
 
-We have to add a new line to character after the inner loop completes it's interation for each row for formatting purposes. 
+We have to add a new line to character after the inner loop completes its iteration for each row for formatting purposes. 
 
 So now that we know how to create the board, our remaning task is to add logic that will place the the pieces in the correct position. Well, that part just got a lot easier now that we have a two-dimensional array. Since each element in each array represents the row and column respectively, we now have the equivalent of a coordinate system.  
 
